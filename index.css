@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0EAD6;
+    padding: 3rem;
+}
+
+
+.profile{
+    padding: 2rem;
+}
+
+img{
+    width: 15%;
+    border-radius: 50%;
+}
+
+.profile .name{
+    font-size: 2rem;
+    color: #000000;
+}
+
+.profile .email{
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+.profile .socials{
+    font-size: 1.1rem;
+    color: aqua;
+}
