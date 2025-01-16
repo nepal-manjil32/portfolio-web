@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     padding: 0;
     margin: 0;
     background-color: #ffffff;
+}
+
+h1, h2, h3{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{
+    font-family: "Poppins", serif;
 }
 
 a{
@@ -21,22 +33,45 @@ a{
     padding: 2rem;
 }
 
-img{
+.top-bar img{
     width: 15%;
     border-radius: 50%;
 }
 
 .profile .name{
     font-size: 2rem;
-    color: #000000;
+    color: rgb(101, 101, 98);
 }
 
 .profile .email{
     font-size: 1.3rem;
-    color: #000000;
+    color: rgb(101, 101, 98);
 }
 
-.profile .socials{
+.profile .socials a{
     font-size: 1.1rem;
-    color: aqua;
+    color: rgb(19, 132, 207);
 }
+
+
+.lower-body > div{
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.lower-body h1{
+    color: rgb(101, 101, 98);
+}
+
+/** skills **/
+
+
+/** orgainzations **/
+
+
+/** publications **/
+
+
+/** side-projects" **/
+
